@@ -79,7 +79,7 @@ main {position: relative;height: 100vh;}
 #trailer{
   .modal-dialog{width: 864px;height: 864px;background: url(../images/bgpop.png) no-repeat top center;
     .modal-content{height: 100%;
-      .content{margin-top: 130px;
+      .content{margin-top: 130px;height:580px;overflow-y: scroll;
         h3{font-weight: 700;text-shadow: 2px 2px 2px #f5aa28, -2px -2px 2px #f5aa28;}
         p{font-size: 20px;
         strong{font-size: 25px;}
@@ -88,6 +88,25 @@ main {position: relative;height: 100vh;}
     }
   }
 }
+
+#style-3::-webkit-scrollbar-track
+{
+  border-radius: 5px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 4px;border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color:var(--colorerror);border-radius: 5px;
+}
+
 #tuongmoi .modal-body .close{right: 100px;}
 .modal-dialog{
   .modal-content{background-color: transparent;border:none;

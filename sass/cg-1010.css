@@ -499,6 +499,8 @@ main {
 
 #trailer .modal-dialog .modal-content .content {
   margin-top: 130px;
+  height: 580px;
+  overflow-y: scroll;
 }
 
 #trailer .modal-dialog .modal-content .content h3 {
@@ -512,6 +514,24 @@ main {
 
 #trailer .modal-dialog .modal-content .content p strong {
   font-size: 25px;
+}
+
+#style-3::-webkit-scrollbar-track {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb {
+  background-color: var(--colorerror);
+  border-radius: 5px;
 }
 
 #tuongmoi .modal-body .close {
